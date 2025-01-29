@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <style>
+      @font-face { font-family: DIMID; src: url('DIMIS___.TTF'); } 
+  </style>
+  <title>Entologik</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: #919191c3;
+    }
+  </style>
+  <nav class="navbar">
+    <ul>
+      <p><img src="images\entologik.jpg" alt="Entologik" width="100" heigth="100"></p>
+      <li><a href="acceuil" >Acceuil</a></li>
+      <li><a href="billetterie" >Billetterie</a></li>
+      <li><a href="faq" >FAQ</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </nav>
+<h1>billetterie</h1>
+</body>
+</html> 

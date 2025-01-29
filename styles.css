@@ -1,0 +1,39 @@
+@font-face { font-family: DIMIS; src: url('DIMIS___.TTF'); } 
+
+nav ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    }
+nav {
+    background-color: white;  
+    padding: 0.35rem; 
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 7px;
+}
+nav a {
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 200%;
+    font-family:DIMIS ;
+    position: relative;
+    display: inline-block;
+    bottom: -45px;
+}
+
+
+nav a:hover {
+    color: #ddd;
+}
+nav a:active {
+    color: #aaa;
+}
+nav a {
+    transition: color 0.3s ease;
+}
+
